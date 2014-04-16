@@ -1,0 +1,18 @@
+    
+    /* Equipo */
+    Desarrollador : Oscar García.
+    Site: contacto@design2me.net,http://design2me.net/contacto.html
+    Twitter: https://twitter.com/Design2me
+    Location: México, D.F.
+
+    /* Agradecimientos */
+    Name: http://design2me.net/
+
+    /* Sitio Web */
+    Last update: 15/04/2014
+    Standards: HTML5, CSS3, Javascript, PHP, AJAX.
+    Components: Modernizr, jQuery, Bootstrap, API GOOGLE MAPS.
+    Software: Sublime text2, Xampp.
+
+
+                    

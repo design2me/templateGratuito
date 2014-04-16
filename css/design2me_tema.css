@@ -1,0 +1,73 @@
+/*..............................
+	Author   : Oscar García
+	Fecha    : 15 / 04 / 2014 
+..............................*/
+body,html{
+	margin   :0px;
+	padding  :0px;
+}
+body{
+	font-family: 'Dosis', sans-serif;
+	font-size:16px;
+	color:#585858;
+	background:#e6e6e6;
+}
+section{
+	margin:2em;
+}
+p{
+	margin:1em;
+}
+hr{
+	color: #f00;
+	background-color: #19a098;
+	height: 2px;
+}
+.cursiva_d2m{
+	font-family: 'Romanesco', cursive;
+	font-size:1.2em;
+}
+.titulo_d2m{
+	color:#19a098;
+	font-size:1.5em;
+}
+.subtitulo_d2m{
+	color:#127c76;
+	font-size:1em;
+	text-align:center;
+}
+.d2m_boton{
+	background:#127c76;
+	border-radius:5px;
+	border-left:solid 4px #0f5f5a;
+	border-bottom:solid 4px #0f5f5a;
+	color:#fff;
+	padding:0.2em 1em;
+	float:right;
+	margin:1em;
+	animation-duration: 5s;
+	-webkit-animation-duration: 5s;
+}
+.d2m_boton:hover{
+	border-left:solid 2px #0f5f5a;
+	border-bottom:solid 2px #0f5f5a;
+	color:#fff;
+	text-decoration:none;
+}
+/*....Principales Servicios ....*/
+
+.serv_d2m p{
+	margin:1em;
+}
+
+.imagen{
+	background:#cecece;
+}
+/* Dispositivos pequeños (tablets, anchura mayor o igual a 768px) */
+@media (min-width: @screen-sm-min) { ... }
+ 
+/* Dispositivos medianos (ordenadores, anchura mayor o igual a 992px) */
+@media (min-width: @screen-md-min) { ... }
+ 
+/* Dispositivos grandes (ordenadores, anchura mayor o igual a 1200px) */
+@media (min-width: @screen-lg-min) { ... }
