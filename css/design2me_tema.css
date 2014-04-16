@@ -11,6 +11,7 @@ body{
 	font-size:16px;
 	color:#585858;
 	background:#e6e6e6;
+	background: url("../src/hexagonos.png");
 }
 section{
 	margin:2em;
@@ -23,6 +24,10 @@ hr{
 	background-color: #19a098;
 	height: 2px;
 }
+figure{
+	text-align:center;
+	margin:1.5em 0;
+}
 .cursiva_d2m{
 	font-family: 'Romanesco', cursive;
 	font-size:1.2em;
@@ -31,22 +36,31 @@ hr{
 	color:#19a098;
 	font-size:1.5em;
 }
+.blanco{
+	color:#fff !important;
+	text-align: center;
+}
 .subtitulo_d2m{
 	color:#127c76;
 	font-size:1em;
 	text-align:center;
 }
-.d2m_boton{
+.d2m_boton{	
 	background:#127c76;
 	border-radius:5px;
 	border-left:solid 4px #0f5f5a;
 	border-bottom:solid 4px #0f5f5a;
 	color:#fff;
+	font-size:14px;
 	padding:0.2em 1em;
 	float:right;
-	margin:1em;
-	animation-duration: 5s;
-	-webkit-animation-duration: 5s;
+	margin:0 1em;
+
+	-webkit-transition: .05s ease-in-out;
+	-moz-transition: .05s ease-in-out;
+	-ms-transition: .05s ease-in-out;
+	-o-transition: .05s ease-in-out;
+	transition: .05s ease-in-out;
 }
 .d2m_boton:hover{
 	border-left:solid 2px #0f5f5a;
@@ -54,14 +68,79 @@ hr{
 	color:#fff;
 	text-decoration:none;
 }
-/*....Principales Servicios ....*/
+.d2m_botonBlanco{
+	padding:0.3em 2em;
+	border:solid 1px #fff;
+	border-radius:5px;
+	color:#fff;
+	margin:1em;
 
+	-webkit-transition: .50s ease-in-out;
+	-moz-transition: .50s ease-in-out;
+	-ms-transition: .50s ease-in-out;
+	-o-transition: .50s ease-in-out;
+	transition: .50s ease-in-out;
+}
+	.d2m_botonBlanco:hover{
+		background:#fff;
+	}
+/*....Principales Servicios ....*/
+.serv_d2m{
+	text-align: center;
+	display:inline-block;
+	margin:1em 0 1em 0;
+}
+.serv_d2m img{
+	width:60px;
+	display:inline-block;
+}
 .serv_d2m p{
 	margin:1em;
+	font-size:14px;
+	text-align:center;
+}
+.overlay{
+	background:rgba(0,0,0,0.4) url("../src/mesh.png");
+	width:100%;
+	height:100%;
+	padding:1.5em 0;
+	border-top:solid 0.5em rgba(0,0,0,0.2);
+	border-bottom:solid 0.5em rgba(0,0,0,0.2);
+}
+.d2m_imagen{
+	margin:5em 0px;
+	background:#cecece;
+	background:url("../img/1.jpg") top left fixed;
+
 }
 
-.imagen{
-	background:#cecece;
+/*........ Principal ..............*/
+.principal{
+	text-align:center;
+}
+	.principal h1{
+		font-size:1.5em;
+	}
+		.principal span{
+			background:#333333;
+			padding:0.1em 0.3em;
+			color:#fff;
+		}
+	.principal p{
+		margin:2em;
+		border-bottom:solid 1px #cecece;
+		padding:0 0 2em 0;
+	}
+
+
+/*.... Listondes Imagenes ..........*/
+.d2m_img_1{
+	background:url("../img/1.jpg") top left fixed;
+	text-align:center;
+}
+	
+.d2m_img_2{
+	background:url("../img/2.jpg") top left fixed;
 }
 /* Dispositivos pequeños (tablets, anchura mayor o igual a 768px) */
 @media (min-width: @screen-sm-min) { ... }
